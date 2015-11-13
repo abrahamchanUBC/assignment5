@@ -32,7 +32,7 @@ You will need node.js to complete this assignment, so please install node.js if 
   
   Note that mongoDB will automatically create "_id" field(with unique value) for each documented created. You are free to add your own "id" field for each document if needed. There are many good mongoDB tutorials online, [here](https://docs.mongodb.org/manual/core/crud-introduction/) is one of them. For debug purposes, you can also install RoboMongo which provide an easy GUI.
 
-2. **Fetch products from database:** You can store the product information available at https://cpen400a.herokuapp.com/products into your own database. Follow [this](https://docs.mongodb.org/ecosystem/drivers/node-js/) tutorial on how to install nodojs driver for mongoDB. Once you have mongoDB connection setup correctly, you will need to update the /products endpoint to fetch the data from your database.
+2. **Fetch products from database:** You can store the product information available at https://cpen400a.herokuapp.com/products into your own database. Follow [this](https://docs.mongodb.org/ecosystem/drivers/node-js/) tutorial on how to install nodejs driver for mongoDB. Once you have mongoDB connection setup correctly, you will need to update the /products endpoint to fetch the data from your database.
 
 3. **Add Checkout functionality:** You will need to create a POST endpoint /checkout in your application. The end point will accept a json formatted object (cart) and total as parameters that you will need to store in your orders table. You will also need to update the JavaScript code in your web application to make this post request when user click on *checkout* button. This task is only considered complete when you have the checkout functionality working completely.
 
