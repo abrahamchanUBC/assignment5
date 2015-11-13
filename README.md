@@ -35,6 +35,7 @@ In this assignment we will focus on building the backend for the bookstore. You 
 
 3. **Add Checkout functionality:** You will need to create a POST endpoint /checkout in your application. The end point will accept a json formatted object (cart) and total as parameters that you will store in your orders table. You will also need to update the JavaScript code in your web application to make this post request when user click on *checkout* button. This task is only considered complete when you have the checkout functionality working completely.
 
+BONUS:
 4. **Add authentication to AJAX calls:** Till now, all the AJAX calls that you made to your server had no authentication. However, to prevent misuse of your backend, you need to add authentication to your ajax calls. Any call to fetch product list or checkout should be accompained with a valid token. You can add some entries in your user collection. You will then need to update both /products and /checkpoint endpoint to check for valid token in the request. For now, you can hard code the token from your user table in your JavaScript code. You will need to send token as one of the parameters with the ajax calls to both fetch product list and checkout cart. When you receive the reruest, you need to validate that token passed in the request exists in the user collection. If there is no token or the token passed is invalid, you need to provide response with error code 401.
 
 
