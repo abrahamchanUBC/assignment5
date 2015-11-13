@@ -3,25 +3,33 @@
 In this assignment we will focus on building the backend for the bookstore. You can clone the code from https://github.com/erkartik91/cpen400/ (as given in the previous assignment) to setup your own server on your local machine.
 
 ## Tasks
-1. **Setup MySql Database:** You will need to install mysql on your laptop. You can find the instructions to install mysql [here](https://www.mysql.com). You will need to create the following tables for this assignment.
+1. **Setup MySql Database:** You will need to install mongoDB on your laptop. You can find the instructions to install mongoDB [here](https://docs.mongodb.org/manual/installation/). You will need to create the following collections for this assignment. For each collection, we also provide an example of a document, so your document should looks similar like these.
   ```
   products
-  -- id (int) (auto increment)
-  -- name (text)
-  -- price (int)
-  -- quanitity (int)
-  -- image (text)
+  {
+    "_id" : ObjectId("564523c89a9b1a2a4ae35ebe"),
+    "name" : "PC1",
+    "price" : 32,
+    "quantity" : 32,
+    "image" : "pathToImage"
+  }
   
   orders
-  -- id (int) (auto increment)
-  -- cart (string)
-  -- total (int)
+  {
+    "_id" : ObjectId("f40f3qjfasdfsafssasaadf2"),
+    "cart" : "JsonStringForCartObject",
+    "total" : 117
+  }
   
-  user
-  -- id (int) (auto increment)
-  -- token (text)
+  users
+  {
+    "_id" : ObjectId("2fewj90fjadkslsdkfnaldfa"),
+    "token" : "Xoe2inasd"
+  }
   
   ```
+  
+  Note mongoDB will automatically create "_id" field(with unique value) for each documented created. You are free to add your own "id" field for each document if needed. There are many good mongoDB tutorial online, [here](https://docs.mongodb.org/manual/core/crud-introduction/) is one of them. For debug purposes, you can also install RoboMongo which provide an easy GUI.
 
 2. **Fetch products from database:** You can store the product information available at https://cpen400a.herokuapp.com/products into your own database. Follow [this](https://codeforgeek.com/2015/01/nodejs-mysql-tutorial) tutorial on how to connect to mysql from node.js to setup mysql connection in your node.js application. Once you have mysql connection setup correctly, you will need to update the /products endpoint to fetch the data from your database.
 
