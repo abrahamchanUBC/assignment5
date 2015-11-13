@@ -3,7 +3,7 @@
 In this assignment we will focus on building the backend for the bookstore. You can clone the code from https://github.com/erkartik91/cpen400/ (as given in the previous assignment) to setup your own server on your local machine.
 
 ## Tasks
-1. **Setup MySql Database:** You will need to install mongoDB on your laptop. You can find the instructions to install mongoDB [here](https://docs.mongodb.org/manual/installation/). You will need to create the following collections for this assignment. For each collection, we also provide an example of a document, so your document should looks similar like these.
+1. **Setup mongoDB Database:** You will need to install mongoDB on your laptop. You can find the instructions to install mongoDB [here](https://docs.mongodb.org/manual/installation/). You will need to create the following collections for this assignment. For each collection, we also provide an example of a document, so your document should look similar like these.
   ```
   products
   {
