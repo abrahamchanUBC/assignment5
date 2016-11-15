@@ -42,18 +42,10 @@ You will need node.js to complete this assignment, so please install node.js if 
 
 6. **BONUS (0.5 points): Add filtering by product category:** In your front-end application, you have several product categories listed in your navigation menu on the left. Examples include "Clothing" and "Stationary". Implement a filter on your server application to return products belonging to a certain cateogry and display only those products on the client side when interfacing with the navigation menu. Pressing "All Items" should remove all filters. Please use your judgement on categorizing the products. You will only receive this credit if you implement this on **both the server and client.**
 
-
-## Submission instructions:
-
-* Add a folder called **assignment5** in your github repo.
-* Make sure you push your changes before midnight (11:59 PM) before the day when assignment is due - late submissions will not be accepted.
-* We will be downloading the code on the midnight before the due date, any changes to code after that point will not be considered for marking.
-
 ## Code Quality
 
 (4 points) As this is your last assignment, please ensure that all code is clean and easy to read. You should be able to deliver this code on to a new web developer without written documentation. 
 You should ensure that your JavaScript code follows the best practices around variable/function naming, variable placement, modularization (dividing long code blocks into smaller functions) and comments (your comments should explain why a design choice was taken, instead of how your code works). **No DOM elements should be defined in the HTML at this point.** Your code will be assessed for code quality during marking.
-
 
 ## Submission instructions:
 
