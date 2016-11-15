@@ -57,12 +57,12 @@ You should ensure that your JavaScript code follows the best practices around va
 
 ## Submission instructions:
 
-* Copy the code from your assignment 3
+* Copy the code from your assignment 4
 * Update the code to reflect the changes for this assignment.
-* Create a branch called assignment-4.
+* Create a branch called assignment-5.
 * Make sure you push your changes before the due date - late submissions will not be accepted.
-* For students in L1A, the assignment is due on Tuesday, November 15 at 11:59 PM.
-* For students in L1B, the assignment is due on Thursday, November 17 at 11:59 PM.
+* For students in L1A, the assignment is due on Tuesday, November 29 at 11:59 PM.
+* For students in L1B, the assignment is due on Thursday, December 1 at 11:59 PM.
 * We will be downloading the code on the due date, any changes to the code after that point will not be considered for marking.
 
 ## Labs are mandatory on the week of assignment submission:
