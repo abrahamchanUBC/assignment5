@@ -34,7 +34,7 @@ You will need node.js to complete this assignment, so please install node.js if 
 
 2. **Fetch products from database:** (2 points) Follow [this](https://docs.mongodb.org/ecosystem/drivers/node-js/) tutorial on how to install nodejs driver for mongoDB. Once you have mongoDB connection setup correctly, you will need to create a GET endpoint /products to allow users to fetch all products from your database.
 
-3. **Adding filters:** (3 points) Add price filters to your /products endapoint to allow users to retrieve all products between a specified price range (inclusive). You will need to consider checking erroneous values in your filters.
+3. **Adding filters:** (3 points) Add price filters to your /products endpoint to allow users to retrieve all products between a specified price range (inclusive). You will need to consider checking erroneous values in your filters.
 
 4. **Add Checkout functionality:** (3 points) You will need to create a POST endpoint /checkout in your application. The end point will accept a json formatted object (cart) and total as parameters that you will need to store in your orders table. You will also need to update the JavaScript code in your web application to make this post request when user click on *checkout* button. This task is only considered complete when you have the checkout functionality working completely.
 
@@ -45,7 +45,7 @@ You will need node.js to complete this assignment, so please install node.js if 
 ## Code Quality
 
 (4 points) As this is your last assignment, please ensure that all code is clean and easy to read. You should be able to deliver this code on to a new web developer without written documentation. 
-You should ensure that your JavaScript code follows the best practices around variable/function naming, variable placement, modularization (dividing long code blocks into smaller functions) and comments (your comments should explain why a design choice was taken, instead of how your code works). **No DOM elements should be defined in the HTML at this point.** Your code will be assessed for code quality during marking.
+You should ensure that your JavaScript code follows the best practices around variable/function naming, variable placement, modularization (dividing long code blocks into smaller functions) and comments (your comments should explain why a design choice was taken, instead of how your code works). Your code will be assessed for code quality during marking.
 
 ## Submission instructions:
 
